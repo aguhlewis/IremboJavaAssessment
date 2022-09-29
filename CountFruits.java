@@ -25,9 +25,9 @@ public class CountFruits {
 
 		// output records per line
 		if (usePrintOptionOne)
-			printOptionOne(alphabet);
+			printOptionOne(alphabet); // 0(N)
 		else
-			printOptionTwo(alphabet);
+			printOptionTwo(alphabet); // 0(N)^2
 
 	}
 
